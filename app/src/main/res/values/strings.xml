@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VcardTest-Project</string>
+    <string name="copy_to_sdcard_fail">Couldn\'t save attachment.</string>
+    <string name="copy_to_sdcard_success">Attachment saved.</string>
+</resources>

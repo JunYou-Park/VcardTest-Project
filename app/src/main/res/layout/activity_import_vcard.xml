@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImportVCardActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="연락처 목록"
+                android:textColor="@color/black_2a"
+                android:textSize="17sp"/>
+
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_import_vcard_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/btn_import_vcard_save"
+        android:layout_below="@+id/appbar"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:scrollbarSize="4dp"
+        android:scrollbars="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_vcard_contact" />
+
+    <Button
+        android:id="@+id/btn_import_vcard_save"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:backgroundTint="@color/primary_color"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:enabled="false"
+        android:text="저장"
+        android:layout_alignParentBottom="true"
+
+        />
+
+</RelativeLayout>
