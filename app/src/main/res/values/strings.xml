@@ -2,4 +2,8 @@
     <string name="app_name">VcardTest-Project</string>
     <string name="copy_to_sdcard_fail">Couldn\'t save attachment.</string>
     <string name="copy_to_sdcard_success">Attachment saved.</string>
+    <string name="unknown_name">UnKnown</string>
+    <string name="contact_content_summary"> (+%d more)</string>
+    <string name="letter_tile_letter_font_family" translatable="false">sans-serif-light</string>
+    <string name="menu_save">Save</string>
 </resources>

@@ -45,14 +45,13 @@
         android:id="@+id/btn_import_vcard_save"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:backgroundTint="@color/primary_color"
+        android:backgroundTint="@color/btn_default_color"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
         android:enabled="false"
-        android:text="저장"
+        android:text="@string/menu_save"
         android:layout_alignParentBottom="true"
-
         />
 
 </RelativeLayout>

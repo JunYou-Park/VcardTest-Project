@@ -13,7 +13,7 @@
     android:background="?attr/selectableItemBackground"
     >
 
-    <com.ctb.vcardtest_project.LetterImageView
+    <com.ctb.vcardtest_project.view.LetterImageView
         android:id="@+id/iv_vcard_contact_avatar"
         android:layout_width="42dp"
         android:layout_height="42dp"
